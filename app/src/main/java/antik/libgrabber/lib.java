@@ -14,7 +14,7 @@ package antik.libgrabber;
 public class lib {
 
     static {
-        System.loadLibrary("libgrabber");
+        System.loadLibrary("grabber");
     }
     public static native String dump(String inPath, String outPath);
 }
