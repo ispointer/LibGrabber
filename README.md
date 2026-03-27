@@ -1,6 +1,6 @@
 # LibGrabber
 
-**LibGrabber 1.0 ** is an Android tool designed to Dump lib sdk  || External Working...!
+LibGrabber 1.0 is an Android tool designed to Dump lib sdk  || External Working...!
 
 ## How It Works
 
