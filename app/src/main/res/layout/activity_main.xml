@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/antik"
+        android:title="@string/app_name"
+        app:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/in1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter so full path"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:padding="12dp"/>
+
+        <EditText
+            android:id="@+id/in2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="output path .hpp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/dum"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="DUMP"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#D6D6D6"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/sta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#444444"
+            android:gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/proc"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

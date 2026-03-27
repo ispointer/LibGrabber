@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.LibGrabber" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/antik</item>
+        <item name="colorPrimaryDark">@color/antik</item>
+        <item name="colorAccent">@color/antik</item>
+        <item name="android:navigationBarColor">@color/antik</item>
+    </style>
+
+</resources>
